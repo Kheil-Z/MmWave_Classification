@@ -1,4 +1,4 @@
-# MmWave_Classification
+# MmWave Classification
 Imperial College Masters Individual Project 
 
 This project is a first step towards a CWD system, with the utlimate aime of classifying concealed weapons over a certain range, eliminating the need for portals or hanheld devices in security screenings for exmple.
