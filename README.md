@@ -17,6 +17,10 @@ Note: The collected datasets and models are too large to upload via git, please 
 
 - [The configuration file](https://github.com/Kheil-Z/MmWave_Classification/blob/main/knife3dNoGrouping.cfg)  we used can be changed, this is generated using [TI's tool](https://dev.ti.com/gallery/view/mmwave/mmWave_Demo_Visualizer/ver/2.1.0/).
 
-- 
+- [The notebook](https://github.com/Kheil-Z/MmWave_Classification/blob/main/Training/MmwaveLearning_Project.ipynb) used to train the models is all ready to run on data issued from the [toCSV_heatmapROI_voxel.py](https://github.com/Kheil-Z/MmWave_Classification/blob/main/toCSV/toCSV_heatmapROI_voxel.py) code after collecting data( or using our data)
+
+- Finally, the [main code structure](https://github.com/Kheil-Z/MmWave_Classification/blob/main/predict.py) is used to either stream data live and save it, or just visualize it, or to make live predictions on the streamed data once the sensor is connected.
 
 ## Usage
+
+All codes contain a "main" loop with comments indicating their appropraite usage. Furthemore, inputing "h" will print a small help page when using the [prediction code](https://github.com/Kheil-Z/MmWave_Classification/blob/main/predict.py), this should explain how to use each mode appropriately.
