@@ -1,12 +1,15 @@
 # MmWave Classification
 Imperial College Masters Individual Project 
 
-This project is a first step towards a CWD system, with the utlimate aim of classifying concealed weapons over a certain range, eliminating the need for portals or hanheld devices in security screenings for exmple.
+This project is a first step towards a CWD system, with the utlimate aim of classifying concealed weapons over a certain range, eliminating the need for portals or handheld devices in security screenings for exmple.
 
-In this project, we attempted to demonstrate the reliability of Deep Learning techniques applied to data from TI's mmwave sensor (IWR1443). We succesfully classifya hanheld spoon from a knife, in various conditions.
+In this project, we attempted to demonstrate the reliability of Deep Learning techniques applied to data from TI's mmwave sensor (IWR1443). We succesfully classified hanheld spoon from a knife, in various conditions.
 
 Note: The collected datasets and models are too large to upload via git, please contact me if you wish to have access.
 
+## Report
+
+The [report](https://github.com/Kheil-Z/MmWave_Classification/blob/main/final_report.pdf) goes further into detail concerning the project.
 ## Contents
 
 - The [aux directory](https://github.com/Kheil-Z/MmWave_Classification/tree/main/aux) contains auxiliary files with functions necessary for the main code structure. These are used to parse the config file, parse the raw data once streamed, implement Peak Grouping on the objects data class(also voxelize it), and contain the Pytorch Models structures.
